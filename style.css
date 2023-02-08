@@ -19,6 +19,12 @@ h1{
     margin: 5px;
 }
 
+main{
+    display: flex;
+    gap: 16px;
+}
+
+
 article{
     border: 2px solid rgba(169, 169, 169, 0.575);
     border-radius: 10px;
@@ -26,8 +32,9 @@ article{
     margin: 10px;
     text-decoration: none;
     color: black;
-    width: 60%;
     padding: 5px;
+    display: flex;
+    gap: 16px;
 }
 
 article:hover{
@@ -52,12 +59,12 @@ form{
     text-align: center;
     border: 1px solid rgba(128, 128, 128, 0.2);
     background-color: rgba(255, 255, 255, 0.295);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
+    margin: 10px;
     margin-right: 10px;
-    margin-left: 63.1%;
-    margin-bottom: 50%;
-    height: 300px;   
+    height: 410px;  
+    display: inline-block; 
 }
 
 .formulario{
@@ -68,6 +75,7 @@ form{
 }
 
 label{
+    margin-top: 30px;
     display: block;
     text-align: left;
     margin-left: 15px;
@@ -75,7 +83,7 @@ label{
 }
 
 input{
-    margin-top: 8px;
+    margin-top: 30px;
     display: block;
     text-align: left;
     background-color: #E9ECEF;
